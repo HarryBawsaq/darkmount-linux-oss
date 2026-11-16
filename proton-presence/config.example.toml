@@ -1,0 +1,18 @@
+# proton-presence configuration.
+# Installed to ~/.config/proton-presence/config.toml and re-read
+# automatically when it changes; no restart needed.
+
+# Application ID of your default Discord application. Used for every game
+# without its own [games.<id>] entry. Discord shows that application's name
+# as "Playing <name>", so call it something like "Steam".
+default_client_id = ""
+
+# Per-game overrides, keyed by Steam app ID (the number in the game's store
+# URL, e.g. https://store.steampowered.com/app/1245620/).
+#
+# [games.1245620]
+# client_id = "234567890123456789"   # Discord application named after the game
+# large_image = "elden_ring"         # key of an art asset in that application
+#
+# [games.620]
+# large_image = "portal2"            # art asset in the default application
